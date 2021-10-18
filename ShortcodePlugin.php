@@ -25,8 +25,6 @@ if( ! class_exists( 'ShortcodePlugin' ) ) {
 	            'color' => '#F0F'
 	 
 	        ), $attr );		
-
-
 			$Content = '<marquee onMouseOver="this.stop()" onMouseOut="this.start()"><h3 style="color:'.$args['color'].';">This header is work by using a custom plugin with user given color!</h3></marquee>';
 			 
 		    return $Content;
